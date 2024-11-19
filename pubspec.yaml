@@ -1,0 +1,46 @@
+name: flutter_application_1
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  confetti: ^0.7.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/imagemInicial.jpg
+    - lib/assets/perg1.jpg
+    - lib/assets/perg2.jpg
+    - lib/assets/perg3.jpg
+    - lib/assets/perg4.jpg
+    - lib/assets/perg5.jpg
+    - lib/assets/perg6.jpg
+    - lib/assets/perg7.jpg
+    - lib/assets/perg8.jpg
+    - lib/assets/perg9.jpg
+    - lib/assets/perg10.jpg
+
+    
